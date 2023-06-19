@@ -1,6 +1,7 @@
 "use client"
 
 import React  from 'react'
+import Image from "next/image";
 import { GithubFilled } from '@ant-design/icons';
 
 const ProjectModal = ({ isOpen, onClose, project }) => {
